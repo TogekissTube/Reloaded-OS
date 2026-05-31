@@ -13,7 +13,7 @@ SECTIONS {
     .bss : {
         *(.bss COMMON)
     }
-    . = ALIGN(8);
+    . = ALIGN(16);
     . += 0x1000;
     stack_top = .;
 }
