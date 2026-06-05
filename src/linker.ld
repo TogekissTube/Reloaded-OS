@@ -1,6 +1,6 @@
 ENTRY(_start)
 SECTIONS {
-    . = 0x40100000;
+    . = 0x00200000;
     .text.init : {
         boot.o(.text)
     }
